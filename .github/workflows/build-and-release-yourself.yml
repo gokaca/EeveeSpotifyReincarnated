@@ -17,7 +17,7 @@ on:
 env:
   THEOS: ${{ github.workspace }}/theos
   SWIFTPROTOBUF_VERSION: "1.29.0"
-
+  HOMEBREW_NO_REQUIRE_TAP_TRUST: "1"
 jobs:
   inject:
     runs-on: macos-latest
